@@ -1,0 +1,10 @@
+/node_modules
+/public/storage
+/storage/
+/storage/hrm_logs/log.log
+/vendor
+/.idea
+Homestead.json
+Homestead.yaml
+.env
+composer.lock

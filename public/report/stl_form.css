@@ -1,0 +1,106 @@
+
+body {
+    background:  linear-gradient(to top, #ffffff 20%, #fafffa 80%) fixed;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 112.5%;
+}
+header {
+    padding: .5em;
+    font-variant: small-caps;
+    font-size: 200%;
+}
+a:link {
+    color: inherit;
+}
+a:visited {
+    color: inherit;
+}
+
+
+.btn {
+    background: #99A2A8;
+    padding: 0.25em;
+    border: outset 4px #CCC;
+    border-radius: 0.3em;
+    box-shadow: 0px 0px 1px 1px #777;
+}
+.btn:active,
+.btn-pressed {
+    background: #707283;
+    border: inset 4px #CCC;
+}
+.btn:hover,
+.btn-hovered {
+    background: #9092A3;
+}
+.channel {
+    background: #419364;
+    padding: 0.25em 0.4em 0.3em;
+    margin: 0.3em;
+    margin-left: 0.35em;
+    border-radius: 0.4em;
+    box-shadow: 0px 0px 2px 2px #777;
+}
+.channel_link {
+    display: inline-block;
+    padding: 0.25em 0.3em 0.3em;
+    margin-left: 1.5em;
+    margin-right: 10%;
+}
+.channel_link:hover {
+    background: #D39647;
+    border-radius: 0.4em;
+}
+.channel_status {
+    display: inline-block;
+    padding: 0.25em 0.3em 0.3em;
+    width: 50%;
+}
+.channel_status:hover {
+    background: #D39647;
+    border-radius: 0.4em;
+}
+.channel_img {
+    background: #9092A3;
+    height: 2em;
+    width: 2em;
+    margin: 0 0.3em;
+    border-radius: 0.2em;
+    vertical-align: -0.5em;
+}
+.spacer {
+    margin: 1.5em 0 0 0;
+}
+
+
+#twitch_stats {
+    background: url("./img/bg.jpg")  ;
+    background-size: 100%;
+    text-align: left;
+    margin: 1em auto;
+    min-width: 500px;
+    max-width:80%;
+    border-radius: 0.6em;
+}
+#auto_refresh, #filter_status {
+    background: #319364;
+    margin: 1em 0 0.5em;
+    padding: 0.25em 0.3em 0.3em 0.4em;
+    display: inline-block;
+    border-radius: 0.4em;
+    box-shadow: 0px 0px 2px 2px #777;
+}
+#search_form {
+    background: #319364;
+    margin: 1em auto 0.5em;
+    padding: 0.25em 0.3em 0.3em 0.4em;
+    max-width: 20em;
+    width: intrinsic;           /* Safari/WebKit uses a non-standard name */
+    width: -moz-max-content;    /* Firefox/Gecko */
+    width: -webkit-max-content; /* Chrome */
+    border-radius: 0.4em;
+    box-shadow: 0px 0px 2px 2px #777;
+}
+#results {
+    margin: 2em 2em 0 2em;
+}

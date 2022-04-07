@@ -1,0 +1,2 @@
+@include('components.modal-header' , ['id' => 'privileges-modal', 'mdlSize' => 'l', 'mdlTitle' => 'Güzəştlərin əlavə edilməsi ekranı', 'mdUrl' => route('privileges.store'), 'tb' => 'tb'])
+@include('components.modal-footer')

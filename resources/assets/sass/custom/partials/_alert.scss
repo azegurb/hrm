@@ -1,0 +1,33 @@
+#alertModal{
+  .modal-content{
+    width: 120px!important;
+    left: 50%!important;
+    margin-top: 50%!important;
+    background-color: transparent;
+  }
+  @keyframes loader-ellipsis {
+    0%, 100%, 80% {
+      -webkit-box-shadow: 0 0.625em 0 -0.325em #ffffff;
+      box-shadow: 0 0.625em 0 -0.325em #ffffff;
+    }
+    40% {
+    -webkit-box-shadow: 0 0.625em 0 0 #ffffff;
+    box-shadow: 0 0.625em 0 0 #ffffff;
+    }
+  }
+}
+.highlight {
+  -webkit-animation: higlighter 4s normal forwards ease-in-out;
+  animation: higlighter 4s normal forwards ease-in-out;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes higlighter {
+  from {background-color: #e7e7e7;}
+  to {background-color: transparent;}
+}
+
+/* Standard syntax */
+@keyframes higlighter {
+  from {background-color: #e7e7e7;}
+  to {background-color: transparent;}
+}

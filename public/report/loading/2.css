@@ -1,0 +1,24 @@
+body{
+	padding: 0;
+}
+.loader-bg{
+	margin: 0;
+	height: 100vh !important;
+	background-color: #3f51b5;
+}
+.loader-grill, .loader-grill::before, .loader-grill::after{
+	background: #fff;
+}
+@keyframes default-grill {
+    0%,100%,80% {
+        height: 1em;
+        -webkit-box-shadow: 0 0 #fff;
+        box-shadow: 0 0 #fff
+    }
+
+    40% {
+        height: 1.2em;
+        -webkit-box-shadow: 0 -.25em #fff;
+        box-shadow: 0 -.25em #fff
+    }
+}
